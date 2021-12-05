@@ -22,30 +22,6 @@
     font-style: normal;
     font-display: swap;}
 
-.animation{
-  width: 100px;
-  height: 100px;
-  background-color: aqua;
-  position: absolute;
-  animation: rotate 5s infinite;
-
-}
-@keyframes rotate {
-    25%{
-      left:50%;
-      transform: rotate(90deg);
-    }
-    50%{
-      left:75%;
-      transform: rotate(100deg);
-      background-color: red;
-    }
-    100%{
-      left:0%;
-      transform: rotate(0deg);
-    }
-}
-
 
 *{
     padding: 0;
@@ -431,6 +407,9 @@ header .soc{
     margin-bottom: 27px;
     color: #181818;
 }
+#application{
+    margin-bottom: 150px;
+}
 .guideline #name, #telephone{
     display: inline-block;
     width: 100%;
@@ -463,16 +442,15 @@ header .soc{
     border: none;
     border-radius: 40px;
 }
-
-.guideline label #accept{
+form:last-child{
     font-family: '20 Kopeek';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     color: #181818;
-    margin-bottom: 150px;
 }
+
 .guideline a{
     text-decoration: none;
     font-family: '20 Kopeek';
@@ -481,7 +459,88 @@ header .soc{
     font-weight: 400;
     line-height: 25px;
 }
+.stages h2{
+    font-family: '20 Kopeek Book';
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    max-width: 450px;
+    color: #181818;
+    margin-bottom: 83px;
+}
 
+.stages_description{
+    display: flex;
+}
+.stages_description_left{
+    padding-top: 2px;
+    max-width: 380px;
+    width: 100%;
+}
+.stages_description_left img{
+    margin-bottom: 23px;
+}
+.stages_description_left p{
+    font-family: '20 Kopeek Book';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
+#left_p_first{
+    margin-bottom: 71px;
+}
+#left_p_second{
+    margin-bottom: 103px;
+}
+
+.stages_description_right{
+    max-width: 563px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.stages_description_right_content{
+    display: flex;
+    margin-bottom: 60px;
+}
+.right_content_items{
+    max-width: 190px;
+    width: 100%;
+}
+.stages_first{
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #181818;
+    display: inline-block;
+    max-width: 90px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.wider{
+    max-width: 173px;
+}
+.stages_first:last-child{
+    max-width: 200px;
+}
+.stages_second{
+    font-family: '20 Kopeek';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    color: #181818;
+    display: inline-block;
+    max-width: 166px;
+    width: 100%;
+}
+#wide_p{
+    max-width: 183px;
+}
 
 
 

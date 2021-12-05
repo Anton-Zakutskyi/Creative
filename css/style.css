@@ -22,6 +22,31 @@
     font-style: normal;
     font-display: swap;}
 
+.animation{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  position: absolute;
+  animation: rotate 5s infinite;
+
+}
+@keyframes rotate {
+    25%{
+      left:50%;
+      transform: rotate(90deg);
+    }
+    50%{
+      left:75%;
+      transform: rotate(100deg);
+      background-color: red;
+    }
+    100%{
+      left:0%;
+      transform: rotate(0deg);
+    }
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -241,7 +266,93 @@ header .soc{
 .price_image img{
     display: block;
     width: 100%;
+    margin-bottom: 150px;
 }
+
+.items img{
+    width: 100%;
+    display: block;
+    margin-bottom: 38px;
+}
+.items_description{
+    display: flex;
+}
+.items_description h3 {
+
+    font-family: '20 Kopeek Book';
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    color: #181818;
+    margin: 7px 89px 4px 0;
+}
+
+.items_description a{
+    display: block;
+    text-decoration: none;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #181818;
+    padding: 23px 47px;
+    border: 1px solid #181818;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.items p{
+    max-width: 233px;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 100px;
+}
+#items_last_p{
+    margin-bottom: 53px;
+}
+
+.items_show_more{
+    display: inline-block;
+    width: 100%;
+    max-width: 250px;
+    background-color: #2B59C3;
+    font-family: '20 Kopeek Book';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding: 23px 47px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-left: 350px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .guide_flex{
     display: flex;
     justify-content: space-between;
@@ -352,15 +463,28 @@ header .soc{
     border: none;
     border-radius: 40px;
 }
-.guideline #accept{
+
+.guideline label #accept{
     font-family: '20 Kopeek';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     color: #181818;
+    margin-bottom: 150px;
 }
 .guideline a{
     text-decoration: none;
-    margin-bottom: 150px;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
 }
+
+
+
+
+
+
+

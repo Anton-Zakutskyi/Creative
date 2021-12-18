@@ -13,16 +13,6 @@
 </head>
 <body>
     <header>
-        <div class="owl-carousel">
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-        </div>
-
         <div class="container">
             <a href="#" class="logo">
                 <img src="images/logo.svg" alt="logo">
@@ -49,14 +39,43 @@
             </div>
         </div>
     </header>
-    <section class="main-banner">
+    <div class="bg-modal">
+        <div class="modal-contents">
+
+            <div class="close">+</div>
+            <h3>Оставить заявку</h3>
+
+            <form action="" method="post" name="on_click_application" id="on_click_application">
+                <label for="on_click_name">
+                    <input type="text" name="name" id="on_click_name" placeholder="Ваше Имя">
+                </label>
+                <label for="on_click_telephone">
+                    <input type="tel" name="on_click_telephone" id="on_click_telephone" placeholder="+ 7 (999) 999-99-99">
+                </label>
+                <label for="on_click_accept">
+                    <input type="checkbox" name="on_click_accept" id="on_click_accept">
+                    Я принимаю условия передачи персональных данных
+                </label>
+                <button type="submit" name="submit" id="on_click_button">
+                    Оставить заявку
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="position">
         <div class="container">
             <h1>Вам нужен фирменный стиль <br> или ребрендинг?</h1>
             <p>Разработаем в срок от 10-ти дней</p>
             <a href="#" class="btn">Портфолио</a>
-            <a href="" class="btn">Оставить заявку</a>
+            <a href="#" class="btn" id="btn_click">Оставить заявку</a>
         </div>
-    </section>
+    </div>
+        <div class="owl-carousel">
+            <section class="main-banner"></section>
+            <section class="main-banner banner-2"></section>
+            <section class="main-banner banner-3"></section>
+            <section class="main-banner banner-4"></section>
+    </div>
     <section class="form_style_about">
         <div class="container">
             <h3>Что такое фирменный стиль</h3>

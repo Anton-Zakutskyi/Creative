@@ -915,7 +915,33 @@ label[for="on_click_accept"]:hover{
 /*//test-end////*/
 
 
+.owl-carousel .owl-nav .owl-prev{
+    z-index: 4;
+    position: absolute;
+    top: 40%;
+    left: 5%;
 
+}
+.owl-carousel .owl-nav .owl-prev:before {
+    content: "\f053";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    font-size: 50px;
+}
+
+.owl-carousel .owl-nav .owl-next{
+    z-index: 4;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+
+}
+.owl-carousel .owl-nav .owl-next:before {
+    content: "\f054";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    font-size: 50px;
+}
 
 
 
